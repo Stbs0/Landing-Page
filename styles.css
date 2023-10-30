@@ -49,6 +49,7 @@ a {
   display: flex;
   justify-content: center;
   padding: 100px 50px;
+  flex: 1 1 400px;
 }
 .hero-main {
   width: 600px;
@@ -68,6 +69,7 @@ button {
   color: white;
   background-color: rgb(68, 68, 253);
   border: 0;
+  background-color: #1f2937;
   border-radius: 10px;
   padding: 10px 40px;
   margin: 20px 0 0 0;
@@ -85,7 +87,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  flex: 1 1;
+  flex: 1 1 400px;
   gap: 30px;
   padding-bottom: 60px;
 }
@@ -107,7 +109,7 @@ button {
   font-size: 18px;
 }
 .qoat {
-  flex: 1 1;
+  flex: 1 1 400px;
   background-color: #e5e7eb;
 }
 .inside-qoat {
@@ -121,4 +123,34 @@ span {
   display: block;
   text-align: right;
   font-weight: bolder;
+}
+.fourth {
+  display: flex;
+  flex: 1 1 400px;
+  justify-content: center;
+  align-items: center;
+}
+.inside-fourth {
+  width: 75%;
+  padding: 80px 100px;
+  display: flex;
+
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(68, 68, 253);
+}
+.news {
+  flex: 3 1 100px;
+}
+.news1 {
+  flex: 1 1 100px;
+}
+.footerbtn {
+  border: 2px solid white;
+}
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  height: 30px;
+  color: white;
 }
